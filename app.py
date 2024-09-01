@@ -1,5 +1,10 @@
+import sentencepiece  # Explicitly import to ensure it's recognized
 import streamlit as st
 from transformers import MarianMTModel, MarianTokenizer
+
+# Function to translate text remains the same
+# ...
+
 
 # Function to translate text
 def translate_text(text, source_lang='en', target_lang='fr'):
